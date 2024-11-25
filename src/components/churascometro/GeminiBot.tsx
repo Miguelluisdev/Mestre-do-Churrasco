@@ -17,7 +17,7 @@ export default function GeminiInReact() {
   const [input, setInput] = useState("")
   const [loading, setLoading] = useState(false)
   const genAI = new GoogleGenerativeAI(
-    "AIzaSyBNH7InTSJKfesuI9Nsb18Z1jgl3lDvxdY",
+    "AIzaSyAFD7JrM-kLyDsA8sLjWiFeRtDZ82A9shg",
   )
 
   const handleSubmit = async (e: React.FormEvent) => {
